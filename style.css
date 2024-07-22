@@ -1,0 +1,494 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(16, 16, 17);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lNav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.lNav {
+    list-style: none;
+  
+}
+.lNav li{
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+ 
+
+}
+.lNav li:hover{
+   
+    color: rgb(255, 89, 0);
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgb(255, 89, 0);
+    
+
+}
+.im1{
+    height:180px;
+    width: 160px;
+    background-image: url(./logo.png);
+    background-color: rgba(240, 248, 255, 0.356);
+    border-radius: 600%;
+    background-position: center;
+    background-size: cover;
+    margin-right: 120px;
+
+    
+}
+.rNav{
+    margin-right: 55px;
+    display: flex;
+    font-size: 18px;
+    color: aliceblue;
+    align-items: center;
+    gap: 20px;
+
+
+  
+}
+.rNav:hover{
+   
+    color: rgb(255, 89, 0);
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgb(255, 89, 0);
+    
+
+}
+.body{
+    height: calc(100vh - 60px);
+    width: 100%;
+ 
+    display: flex;
+}
+.lBody{
+    height: 100%;
+    width: 60%;
+    background-color: black;
+}
+.rBody{
+    height: 100%;
+    width: 40%;
+    background-color: black;
+}
+.rLBody{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(255, 89, 0);
+}
+.pa
+{
+    margin-bottom: -30px;
+}
+.con1{
+    height: 60%;
+    /* background-color: bisque; */
+    width: 80%;
+    margin: 15% 20% 20% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.con1 p{
+    color: white;
+    opacity: 0.7;
+    font-size: 15px;
+    width: 85%;
+
+}
+.con1 h1{
+    color: white;
+    font-size: 55px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.con1 p span{
+    color: orangered;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.con1 button{
+    padding: 7px 20px;
+    font-size: 15px;
+    
+
+}
+.ki{
+    margin-right: 10px;
+    background-color:rgb(255, 89, 0) ;
+    color: white;
+    border: none;
+}
+.ko{
+    margin-right: 10px;
+    background-color:transparent;
+  
+    color: white;
+    
+    border: 2px solid white;
+}
+.cycle{
+    /* background-color: aquamarine; */
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    top: 6%;
+    left: 44%;
+    background-image: url(./pngegg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.second{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+}
+.on2{
+    height: 300px;
+    width: 33.3%;
+   background-image: url(./2_1.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.tw2{
+    height: 300px;
+    width: 33.4%;
+    background-image: url(./2_2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.th2{
+    height: 300px;
+    width: 33.3%;
+    background-image: url(./2_3.jpg);
+   background-size: cover;
+   background-position: top;
+}
+.op{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.317);
+    padding: 40px;
+    color: white;
+    
+}
+.op h2{
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+.op p{
+    margin-top: 8px;
+    margin-bottom: 130px;
+    opacity: 0.8;
+    font-size: 15px;
+}
+.op p span{
+color: rgb(255, 89, 0);
+margin-top: 50%;
+margin-bottom: 10px;
+}
+.op button{
+    padding: 6px 12px;
+    font-size: 15px;
+    border: none;
+}
+.ko{
+    padding: 6px 12px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+
+.third{
+    height: 450px;
+    width: 100%;
+   
+   
+}
+.top3{
+    margin-top: 12.5px;
+    
+    height: 100px;
+    width: 100%;
+    
+    
+    text-align: center;
+}
+.top3 p{
+   padding-top: 20px;
+   opacity: 0.6;
+}
+.top3 h2{
+    padding-top: 5px;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+
+.bot3{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 12.5px;
+    
+    /* background-color: rgb(250, 232, 33); */
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+}
+.on3{
+    height: 300px;
+    width: 22%;
+    /* background-color: antiquewhite; */
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+
+
+}
+.on3 .img{
+    /* background-image: url(./1.png); */
+    height: 100px;
+    width: 100px;
+       background-image: url(./1.png);
+       background-size: cover;
+       background-position: center;
+       text-align: center;
+
+}
+.on3 p{
+    padding: 0px 0px 0 10px ;
+    opacity: 0.7;
+}
+.tw3{
+    height: 300px;
+    width: 22%;
+    /* background-color: rgb(130, 78, 10); */
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+
+}
+.tw3 .img{
+    /* background-image: url(./1.png); */
+    height: 100px;
+    width: 100px;
+       background-image: url(./2.png);
+       background-size: cover;
+       background-position: center;
+       text-align: center;
+
+}
+.tw3 p{
+    padding: 0px 0px 0 10px ;
+    opacity: 0.7;
+}
+.th3{
+    height: 300px;
+    width: 22%;
+    /* background-color: rgb(225, 62, 12); */
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+
+    
+}
+.th3 .img{
+    /* background-image: url(./1.png); */
+    height: 100px;
+    width: 100px;
+       background-image: url(./undraw_Healthy_lifestyle_re_ifwg.png);
+       background-size: cover;
+       background-position: center;
+       text-align: center;
+
+}
+.th3 p{
+    padding: 0px 0px 0 10px ;
+    opacity: 0.7;
+}
+
+.four{
+    height: 100%;
+    width: 100%;
+   
+}
+.top4{
+    height: 50%;
+    width: 100%;
+    background-color: #dadada;
+    display: flex;
+}
+.left4{
+    height: 100%;
+    width: 50%;
+   
+position: relative;
+border-right: 1px solid #35323281;
+}
+.right4{
+    height: 100%;
+    width: 50%;
+    background-color: #dadada;
+    position: relative;
+}
+.bot4{
+    height: 50%;
+    width: 100%;
+    background-color: #0c0c0c;
+    display: flex;
+}
+.wr4{
+    height: 25%;
+    width: 25%;
+   
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.wr4 button{
+    border: 2px solid  rgb(255, 89, 0);
+    background-color: transparent;
+    box-shadow: 0 0 2px 0.3px;
+    width: 60%;
+    padding: 5px 8px;
+}
+.wr4 p{
+    opacity: 0.7;
+}
+
+.w4{
+    height: 25%;
+    width: 25%;
+   
+     position: absolute;
+    top: 10%;
+    left: 10%; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.w4 button{
+    border: 2px solid  rgb(255, 89, 0);
+    background-color: transparent;
+    box-shadow: 0 0 2px 0.3px;
+    width: 60%;
+    padding: 5px 8px;
+}
+.w4 p{
+    opacity: 0.7;
+}
+.img4_1{
+    height: 100%;
+    width: 50%;
+    margin-left: 50%;
+    background-color: aqua;
+
+}
+.img4_2{
+    height: 100%;
+    width: 50%;
+    margin-left: 50%;
+ 
+    background-image: url(./last2_1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.lb4{
+    width: 50%;
+    height: 100%;
+    background: black;
+    display: flex;
+    
+}
+.rb4{
+    width: 50%;
+    height: 100%;
+  
+   
+ 
+}
+.im5{
+    width: 100%;
+    height: 100%;
+    background-image: url(./pngegg.png);
+    background-size: cover;
+   background-position: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.lf5{
+    width: 35%;
+    height: 90%;
+    
+    margin-left: 22%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+.kir{
+font-size: 14px;
+color: rgb(255, 89, 0) ;
+}
+.lf5 button{
+    font-size: 14px;
+    background-color: rgb(255, 89, 0) ;
+    color: white;
+    border: none;
+    padding: 6px 8px;
+    width: 50%;
+    }
+.rf5{
+    width: 35%;
+    margin-left: 15px;
+    height: 40%;
+    margin-top: 15%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
